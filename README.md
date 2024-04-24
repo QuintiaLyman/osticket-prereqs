@@ -25,10 +25,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-<p>
 ![image](https://github.com/QuintiaLyman/osticket-prereqs/assets/84552471/80d04a51-9aeb-4cb7-b743-7dcf34886282)
 
-</p>
 <p>
 Part 1 (Create Virtual Machine in Azure)
 - Create a Resource Group
@@ -37,9 +35,14 @@ Part 1 (Create Virtual Machine in Azure)
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![image](https://github.com/QuintiaLyman/osticket-prereqs/assets/84552471/afff5cf8-115d-434e-a859-1b011182d7bf)
+
+
+![image](https://github.com/QuintiaLyman/osticket-prereqs/assets/84552471/0512375a-1654-4729-8f59-ea10477105eb)
+
+![image](https://github.com/QuintiaLyman/osticket-prereqs/assets/84552471/1c7dab5b-4d5d-46e7-a229-4523a8cd7686)
+
+
 <p>
 Part 2 (Installation)
 
@@ -96,28 +99,38 @@ Notes: Browse to help desk login page: http://localhost/osTicket/scp/login.php ,
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![image](https://github.com/QuintiaLyman/osticket-prereqs/assets/84552471/187b6623-ea6a-4855-9676-2dcd538dd1ba)
+
+![image](https://github.com/QuintiaLyman/osticket-prereqs/assets/84552471/011c1519-131f-4994-a8d3-21659383e3a4)
+
+
 <p>
 Part 3 (Post Installation Setup)
 - Configure Roles
 Admin Panel -> Agents -> Roles Supreme Admin
+  
 - Configure Departments, Admin Panel -> Agents -> Departments
+  
 - System Administrators, Configure Teams, Admin Panel -> Agents -> Teams
+  
 - Level I Support, Level II Support, Allow anyone to create tickets
+  
 -Admin Panel -> Settings -> User Settings, Registration Required: Require registration and login to create tickets 
+
 - Configure Agents (workers), Admin Panel -> Agents -> Add New, Jane, John
+  
 - Configure Users (customers), Agent Panel -> Users -> Add New, Karen ,Ken
+  
 - Configure SLA, Admin Panel -> Manage -> SLA, Sev-A (1 hour, 24/7), Sev-B (4 hours, 24/7), Sev-C (8 hours, business hours)
+  
 - Configure Help Topics, Admin Panel -> Manage -> Help Topics, Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset
 
 Part 4 (Tickets and Ticket Lifecycle)
 Just practice creating, triaging, and solving tickets. I recommend watching the video to learn about triaging multiple tickets.
+
 Ticket examples:
 Sev-A (1 hour, 24/7) [entire mobile/online banking system is down] -> SysAdmins
 Sev-B (4 hours, 24/7) [accounting department needs adobe upgrade, broken]
 Sev-B/C (2 hours, business hours) [CFO’s laptop seems a bit slow]
-
 </p>
 <br />
