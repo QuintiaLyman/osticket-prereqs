@@ -26,7 +26,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/QuintiaLyman/osticket-prereqs/assets/84552471/80d04a51-9aeb-4cb7-b743-7dcf34886282)
+
 </p>
 <p>
 Part 1 (Create Virtual Machine in Azure)
